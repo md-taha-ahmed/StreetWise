@@ -20,6 +20,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -72,6 +73,8 @@ public class MainActivity_register extends AppCompatActivity {
     String type;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
@@ -431,12 +434,12 @@ public class MainActivity_register extends AppCompatActivity {
                                     {
                                         if((ed4.getText().toString().equals(doc.getString("Mobile"))))
                                         {
-                                            Toast.makeText(MainActivity_register.this, "This mobile number is already registered", Toast.LENGTH_SHORT).show();
+                                            // Toast.makeText(MainActivity_register.this, "This mobile number is already registered", Toast.LENGTH_SHORT).show();
                                             break;
                                         }
                                         if((ed3.getText().toString().equals(doc.getString("Email"))))
                                         {
-                                            Toast.makeText(MainActivity_register.this, "This Email is already registered", Toast.LENGTH_SHORT).show();
+                                            // Toast.makeText(MainActivity_register.this, "This Email is already registered", Toast.LENGTH_SHORT).show();
                                             break;
                                         }
                                     }

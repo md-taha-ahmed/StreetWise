@@ -32,6 +32,7 @@ import android.widget.Toolbar;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.SwitchCompat;
 import androidx.core.app.ActivityCompat;
 import androidx.core.app.NotificationCompat;
@@ -124,6 +125,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     Circle circle;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+
         super.onCreate(savedInstanceState);
         binding = ActivityMapsBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
@@ -222,7 +225,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         keys = new ArrayList<>();
         getLocationUpdates();
         readChanges();
-        getdata();
+
 //
         // For navigation drawer inside on create
         drawerLayout = findViewById(R.id.map_draw);
@@ -252,7 +255,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         navigationView.setNavigationItemSelectedListener(this);
 
 
-
+        getdata();
         //////////////////////////////////////
     }
     /////////////////////gets marker data ////////////////////////
