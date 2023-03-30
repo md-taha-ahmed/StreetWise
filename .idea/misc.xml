@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio Workshop/INTERNSHIP/test6/app/src/debug/res/menu/map_menu.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/INTERNSHIP/test6/app/src/main/res/drawable-v24/error_login.xml" value="0.271875" />
+        <entry key="..\:/Android Studio Workshop/INTERNSHIP/test6/app/src/main/res/drawable-v24/snack1.xml" value="0.271875" />
+        <entry key="..\:/Android Studio Workshop/INTERNSHIP/test6/app/src/main/res/drawable-v24/success.xml" value="0.271875" />
+        <entry key="..\:/Android Studio Workshop/INTERNSHIP/test6/app/src/main/res/layout/activity_home.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/INTERNSHIP/test6/app/src/main/res/layout/activity_main.xml" value="0.2517948717948718" />
+        <entry key="..\:/Android Studio Workshop/INTERNSHIP/test6/app/src/main/res/layout/activity_register.xml" value="0.2517948717948718" />
+        <entry key="..\:/Android Studio Workshop/INTERNSHIP/test6/app/src/main/res/layout/custom_otp.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/INTERNSHIP/test6/app/src/main/res/layout/custom_snack.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/debug/res/menu/about_menu.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/debug/res/menu/activity_about.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/debug/res/menu/fav_menu.xml" value="0.259375" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/debug/res/menu/home_menu.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/drawable-v24/ic_map_cust_icon_d.xml" value="0.1875" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/drawable-v24/ic_map_cust_icon_l.xml" value="0.271875" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/drawable-v24/ic_map_vendor_icon_d.xml" value="0.271875" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/drawable-v24/ic_map_vendor_icon_l.xml" value="0.271875" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/drawable-v24/map_mic.xml" value="0.1515625" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/drawable-v24/menu_delete.xml" value="0.271875" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/drawable/about_bg.xml" value="0.271875" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/drawable/coloredit.xml" value="0.271875" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/drawable/coloredit1.xml" value="0.271875" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/drawable/fav_remove.xml" value="0.2755208333333333" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/drawable/ic_map_cust_icon.xml" value="0.271875" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/drawable/ic_map_vendor_icon_l.xml" value="0.271875" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/drawable/ic_map_vendor_icon_light.xml" value="0.271875" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/drawable/ic_menu_camera.xml" value="0.271875" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/drawable/nav_fav.xml" value="0.15208333333333332" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/layout/activity_about.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/layout/activity_favorite.xml" value="0.259375" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/layout/activity_home.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/layout/activity_main.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/layout/activity_maps.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/layout/activity_profile.xml" value="0.259375" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/layout/activity_register.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/layout/activity_vendor_about.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/layout/activity_vendor_home.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/layout/activity_vendor_profile.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/layout/dialog_delete.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/layout/fav_item.xml" value="0.4" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/layout/fragment_bs_image.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/layout/fragment_menu.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/layout/header.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/debug/res/menu/home_menu.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/debug/res/menu/map_menu.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/debug/res/menu/prof_menu.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/main/res/drawable-v24/prof_dialog_background.xml" value="0.14895833333333333" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/main/res/drawable-v24/profile_backg.xml" value="0.16041666666666668" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/main/res/drawable-v24/profile_editicon.xml" value="0.16041666666666668" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/main/res/drawable-v24/profile_menuicon.xml" value="0.16041666666666668" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/main/res/drawable-v24/profile_save.xml" value="0.16041666666666668" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/main/res/drawable-v24/user_login.xml" value="0.16041666666666668" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/main/res/layout/activity_home.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/main/res/layout/activity_main.xml" value="0.23489583333333333" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/main/res/layout/activity_maps.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/main/res/layout/activity_profile.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/main/res/layout/activity_splash.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/main/res/layout/custom_dialog.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/main/res/layout/custom_tool.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/main/res/layout/drawer.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/main/res/layout/header.xml" value="0.2557291666666667" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.271875" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK 6 VERSION/test6/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.271875" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/debug/res/menu/home_menu.xml" value="0.23333333333333334" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/debug/res/menu/map_menu.xml" value="0.23333333333333334" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/debug/res/menu/prof_menu.xml" value="0.13541666666666666" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/debug/res/menu/vhome_menu.xml" value="0.23541666666666666" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/debug/res/menu/vprof_menu.xml" value="0.259375" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/main/res/drawable/bs_addreview.xml" value="0.15104166666666666" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/main/res/drawable/gradcolor.xml" value="0.2755208333333333" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/main/res/drawable/ic_map_cust_icon.xml" value="0.2755208333333333" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/main/res/layout/activity_home.xml" value="0.20364583333333333" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/main/res/layout/activity_main.xml" value="0.234375" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/main/res/layout/activity_maps.xml" value="0.234375" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/main/res/layout/activity_register.xml" value="0.259375" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/main/res/layout/activity_vendor_home.xml" value="0.259375" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/main/res/layout/activity_vendor_profile.xml" value="0.259375" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/main/res/layout/custom_dialog.xml" value="0.12760416666666666" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/main/res/layout/dialog_add.xml" value="0.12760416666666666" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/main/res/layout/fimg_item.xml" value="0.23541666666666666" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/main/res/layout/fragment_bottom_sheet.xml" value="0.13489583333333333" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/main/res/layout/fragment_bs_image.xml" value="0.1" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/main/res/layout/fragment_menu.xml" value="0.259375" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/main/res/layout/frev_item.xml" value="0.12760416666666666" />
+        <entry key="..\:/Android Studio Workshop/fina year/WEEK8 VERSION/test6/app/src/main/res/layout/header.xml" value="0.23385416666666667" />
+        <entry key="..\:/ENTWICKELRA/Android Studio Workshop/fina year/WEEK 12 VERSION/test6/app/src/main/res/layout/activity_maps.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
