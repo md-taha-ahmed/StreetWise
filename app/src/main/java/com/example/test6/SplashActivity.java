@@ -16,7 +16,7 @@ public class SplashActivity extends AppCompatActivity {
     TextView tv1,tv2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);

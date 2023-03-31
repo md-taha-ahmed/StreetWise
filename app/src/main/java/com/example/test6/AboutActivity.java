@@ -59,7 +59,7 @@ public class AboutActivity extends AppCompatActivity implements NavigationView.O
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
 
@@ -86,7 +86,7 @@ public class AboutActivity extends AppCompatActivity implements NavigationView.O
 
         // For navigation drawer inside on create
         drawerLayout = findViewById(R.id.map_draw);
-
+        navigationView = findViewById(R.id.nav_view_about);
 
         //added for rounded drawer
         MaterialShapeDrawable navViewBackground = (MaterialShapeDrawable) navigationView.getBackground();
@@ -109,6 +109,9 @@ public class AboutActivity extends AppCompatActivity implements NavigationView.O
         });
         navigationView.setNavigationItemSelectedListener(this);
         //////////////////////////////////////
+
+
+
 
         about_hsv = findViewById(R.id.about_hsv);
         about_hsv.setSmoothScrollingEnabled(true);

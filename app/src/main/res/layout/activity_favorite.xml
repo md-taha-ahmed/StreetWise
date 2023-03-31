@@ -41,10 +41,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
-                android:gravity="center" />
-<!--                android:minHeight="?attr/actionBarSize"-->
-<!--                android:theme="?attr/actionBarTheme"-->
-                >
+                android:gravity="center"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -78,8 +77,8 @@
                         android:background="@null"
                         android:src="@drawable/map_mic" />
                 </LinearLayout>
-            </com.google.android.material.appbar.AppBarLayout>
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
 
         <TextView
             android:id="@+id/fav_tv"
@@ -125,4 +124,5 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-    </androidx.drawerlayout.widget.DrawerLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

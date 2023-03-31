@@ -89,7 +89,7 @@ public class VendorProfileActivity extends AppCompatActivity implements Navigati
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vendor_profile);

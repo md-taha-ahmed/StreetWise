@@ -73,7 +73,7 @@ public class MainActivity_register extends AppCompatActivity {
     String type;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);

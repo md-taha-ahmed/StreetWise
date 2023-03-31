@@ -68,7 +68,7 @@ public class VendorAboutActivity extends AppCompatActivity implements Navigation
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vendor_about);
