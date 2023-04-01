@@ -330,7 +330,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     {
         cust = new LatLng(lat, lon);
         circleOptions.center(cust);
-        circleOptions.radius(100).strokeColor(Color.rgb(0, 136, 255)).fillColor(Color.argb(20, 0, 136, 255));
+        circleOptions.radius(150).strokeColor(Color.rgb(0, 136, 255)).fillColor(Color.argb(20, 0, 136, 255));
         circle = mMap.addCircle(circleOptions);
     }
 ///////////////////////////////////////////////////////////////////////
@@ -349,7 +349,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         } else {
 //                        Toast.makeText(getContext(),doc.getId(), Toast.LENGTH_SHORT).show();
                             if (doc.getId().toString().equals(marker.getTag().toString())) {
-                                if (SphericalUtil.computeDistanceBetween(cust, marker.getPosition()) < 100) {
+                                if (SphericalUtil.computeDistanceBetween(cust, marker.getPosition()) < 150) {
                                     if (chkhaw.size() != 0) {
                                         for (String haw : chkhaw) {
                                             if (!haw.equals(marker.getTag().toString())) {
@@ -443,7 +443,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                             String haw_type = documentSnapshot.getString("Type");
 //                            Toast.makeText(getApplicationContext(), "h "+type, Toast.LENGTH_SHORT).show();
                             if(type.equals("All")) {
-                                if (SphericalUtil.computeDistanceBetween(cust, marker.getPosition()) < 100) {
+                                if (SphericalUtil.computeDistanceBetween(cust, marker.getPosition()) < 150) {
                                     marker.setVisible(true);
                                     check2();
                                     marker.showInfoWindow();
