@@ -55,7 +55,7 @@ public class AboutActivity extends AppCompatActivity implements NavigationView.O
     String username;
 
     ImageButton about_lscroll, about_rscroll;
-    TextView about_guide_no, about_glen_no, about_hatim_no, about_habban_no, about_guide_mail, about_glen_mail, about_hatim_mail, about_habban_mail;
+    TextView about_guide_no, about_taha_no, about_kazim_no, about_faisal_no,about_syeda_no, about_guide_mail, about_taha_mail, about_kazim_mail, about_faisal_mail,about_syeda_mail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,13 +71,15 @@ public class AboutActivity extends AppCompatActivity implements NavigationView.O
         userdb= FirebaseFirestore.getInstance();
         fillNavigation();
         about_guide_no = findViewById(R.id.guide_num);
-        about_glen_no = findViewById(R.id.glen_num);
-        about_hatim_no = findViewById(R.id.hatim_num);
-        about_habban_no = findViewById(R.id.habban_num);
+        about_taha_no = findViewById(R.id.taha_num);
+        about_kazim_no = findViewById(R.id.kazim_num);
+        about_faisal_no = findViewById(R.id.faisal_num);
+        about_syeda_no = findViewById(R.id.syeda_num);
         about_guide_mail = findViewById(R.id.guide_mail);
-        about_glen_mail = findViewById(R.id.glen_mail);
-        about_hatim_mail = findViewById(R.id.hatim_num);
-        about_habban_mail = findViewById(R.id.habban_mail);
+        about_taha_mail = findViewById(R.id.taha_mail);
+        about_kazim_mail = findViewById(R.id.kazim_mail);
+        about_faisal_mail = findViewById(R.id.faisal_mail);
+        about_syeda_mail = findViewById(R.id.syeda_mail);
         about_lscroll = findViewById(R.id.about_lscroll);
         about_rscroll = findViewById(R.id.about_rscroll);
         /////for firestorage
@@ -147,6 +149,18 @@ public class AboutActivity extends AppCompatActivity implements NavigationView.O
                 startActivity(intent1);
                 finish();
                 break;
+            case R.id.nav_map:
+                Intent intent2 = new  Intent(getApplicationContext(), MapsActivity.class);
+                intent2.putExtra("type","All");
+                startActivity(intent2);
+                finish();
+                break;
+            case R.id.nav_fav:
+                Intent intent3 = new Intent(getApplicationContext(), FavoriteActivity.class);
+//                intent1.putExtra("user",username);
+                startActivity(intent3);
+                finish();
+                break;
             case R.id.nav_sign_out:
                 signout();
                 break;
@@ -196,18 +210,23 @@ public class AboutActivity extends AppCompatActivity implements NavigationView.O
             clipboard.setPrimaryClip(clip);
             Toast.makeText(getApplicationContext(), "Mobile No. copied", Toast.LENGTH_SHORT).show();
         });
-        about_glen_no.setOnClickListener(v -> {
-            ClipData clip = ClipData.newPlainText("Mobile No.", about_glen_no.getText().toString()) ;
+        about_taha_no.setOnClickListener(v -> {
+            ClipData clip = ClipData.newPlainText("Mobile No.", about_taha_no.getText().toString()) ;
             clipboard.setPrimaryClip(clip);
             Toast.makeText(getApplicationContext(), "Mobile No. copied", Toast.LENGTH_SHORT).show();
         });
-        about_hatim_no.setOnClickListener(v -> {
-            ClipData clip = ClipData.newPlainText("Mobile No.", about_hatim_no.getText().toString()) ;
+        about_kazim_no.setOnClickListener(v -> {
+            ClipData clip = ClipData.newPlainText("Mobile No.", about_kazim_no.getText().toString()) ;
             clipboard.setPrimaryClip(clip);
             Toast.makeText(getApplicationContext(), "Mobile No. copied", Toast.LENGTH_SHORT).show();
         });
-        about_habban_no.setOnClickListener(v -> {
-            ClipData clip = ClipData.newPlainText("Mobile No.", about_habban_no.getText().toString()) ;
+        about_faisal_no.setOnClickListener(v -> {
+            ClipData clip = ClipData.newPlainText("Mobile No.", about_faisal_no.getText().toString()) ;
+            clipboard.setPrimaryClip(clip);
+            Toast.makeText(getApplicationContext(), "Mobile No. copied", Toast.LENGTH_SHORT).show();
+        });
+        about_syeda_no.setOnClickListener(v -> {
+            ClipData clip = ClipData.newPlainText("Mobile No.", about_syeda_no.getText().toString()) ;
             clipboard.setPrimaryClip(clip);
             Toast.makeText(getApplicationContext(), "Mobile No. copied", Toast.LENGTH_SHORT).show();
         });
@@ -216,18 +235,23 @@ public class AboutActivity extends AppCompatActivity implements NavigationView.O
             clipboard.setPrimaryClip(clip);
             Toast.makeText(getApplicationContext(), "Email-ID copied", Toast.LENGTH_SHORT).show();
         });
-        about_glen_mail.setOnClickListener(v -> {
-            ClipData clip = ClipData.newPlainText("Mail", about_glen_mail.getText().toString()) ;
+        about_taha_mail.setOnClickListener(v -> {
+            ClipData clip = ClipData.newPlainText("Mail", about_taha_mail.getText().toString()) ;
             clipboard.setPrimaryClip(clip);
             Toast.makeText(getApplicationContext(), "Email-ID copied", Toast.LENGTH_SHORT).show();
         });
-        about_hatim_mail.setOnClickListener(v -> {
-            ClipData clip = ClipData.newPlainText("Mail", about_hatim_mail.getText().toString()) ;
+        about_kazim_mail.setOnClickListener(v -> {
+            ClipData clip = ClipData.newPlainText("Mail", about_kazim_mail.getText().toString()) ;
             clipboard.setPrimaryClip(clip);
             Toast.makeText(getApplicationContext(), "Email-ID copied", Toast.LENGTH_SHORT).show();
         });
-        about_habban_mail.setOnClickListener(v -> {
-            ClipData clip = ClipData.newPlainText("Mail", about_habban_mail.getText().toString()) ;
+        about_faisal_mail.setOnClickListener(v -> {
+            ClipData clip = ClipData.newPlainText("Mail", about_faisal_mail.getText().toString()) ;
+            clipboard.setPrimaryClip(clip);
+            Toast.makeText(getApplicationContext(), "Email-ID copied", Toast.LENGTH_SHORT).show();
+        });
+        about_syeda_mail.setOnClickListener(v -> {
+            ClipData clip = ClipData.newPlainText("Mail", about_syeda_mail.getText().toString()) ;
             clipboard.setPrimaryClip(clip);
             Toast.makeText(getApplicationContext(), "Email-ID copied", Toast.LENGTH_SHORT).show();
         });

@@ -434,12 +434,12 @@ public class MainActivity_register extends AppCompatActivity {
                                     {
                                         if((ed4.getText().toString().equals(doc.getString("Mobile"))))
                                         {
-                                            // Toast.makeText(MainActivity_register.this, "This mobile number is already registered", Toast.LENGTH_SHORT).show();
+                                            Toast.makeText(MainActivity_register.this, "This mobile number is already registered", Toast.LENGTH_SHORT).show();
                                             break;
                                         }
                                         if((ed3.getText().toString().equals(doc.getString("Email"))))
                                         {
-                                            // Toast.makeText(MainActivity_register.this, "This Email is already registered", Toast.LENGTH_SHORT).show();
+                                            Toast.makeText(MainActivity_register.this, "This Email is already registered", Toast.LENGTH_SHORT).show();
                                             break;
                                         }
                                     }

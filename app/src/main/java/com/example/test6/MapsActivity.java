@@ -330,7 +330,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     {
         cust = new LatLng(lat, lon);
         circleOptions.center(cust);
-        circleOptions.radius(400).strokeColor(Color.rgb(0, 136, 255)).fillColor(Color.argb(20, 0, 136, 255));
+        circleOptions.radius(100).strokeColor(Color.rgb(0, 136, 255)).fillColor(Color.argb(20, 0, 136, 255));
         circle = mMap.addCircle(circleOptions);
     }
 ///////////////////////////////////////////////////////////////////////
@@ -349,7 +349,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         } else {
 //                        Toast.makeText(getContext(),doc.getId(), Toast.LENGTH_SHORT).show();
                             if (doc.getId().toString().equals(marker.getTag().toString())) {
-                                if (SphericalUtil.computeDistanceBetween(cust, marker.getPosition()) < 50) {
+                                if (SphericalUtil.computeDistanceBetween(cust, marker.getPosition()) < 100) {
                                     if (chkhaw.size() != 0) {
                                         for (String haw : chkhaw) {
                                             if (!haw.equals(marker.getTag().toString())) {
@@ -417,6 +417,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 marker.setVisible(true);
                 marker.showInfoWindow();
                 mMap.moveCamera(CameraUpdateFactory.newLatLng(marker.getPosition()));
+                mMap.animateCamera( CameraUpdateFactory.zoomTo( 19.0f ) );
+
                 flag3=1;
             }
         }
@@ -441,7 +443,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                             String haw_type = documentSnapshot.getString("Type");
 //                            Toast.makeText(getApplicationContext(), "h "+type, Toast.LENGTH_SHORT).show();
                             if(type.equals("All")) {
-                                if (SphericalUtil.computeDistanceBetween(cust, marker.getPosition()) < 400) {
+                                if (SphericalUtil.computeDistanceBetween(cust, marker.getPosition()) < 100) {
                                     marker.setVisible(true);
                                     check2();
                                     marker.showInfoWindow();
@@ -452,7 +454,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                             else
                             {
                             if (type.equals(haw_type)) {
-                                    if (SphericalUtil.computeDistanceBetween(cust, marker.getPosition()) < 400) {
+                                    if (SphericalUtil.computeDistanceBetween(cust, marker.getPosition()) < 50) {
                                         marker.setVisible(true);
                                         check2();
                                         marker.showInfoWindow();
@@ -523,6 +525,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                             mymarker.setPosition(new LatLng(location.getLatitude(),location.getLongitude()));
                             if(flag3==0){
                             mMap.moveCamera(CameraUpdateFactory.newLatLng(mymarker.getPosition()));}
+                            mMap.animateCamera( CameraUpdateFactory.zoomTo( 19.0f ) );
+
                             if(circle.isVisible()) {
                                 circle.remove();
                             }
@@ -599,6 +603,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             mymarker.setIcon(BitmapFromVector(getApplicationContext(), R.drawable.ic_map_cust_icon_l));;
         }
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        mMap.animateCamera( CameraUpdateFactory.zoomTo( 19.0f ) );
+
 //added by glen for bottom sheet
         mMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
             @Override

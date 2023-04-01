@@ -133,7 +133,7 @@
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
                                 android:layout_weight="2"
-                                android:src="@drawable/about_guide" />
+                                android:src="@drawable/gouid" />
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
@@ -146,7 +146,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="serif"
-                                    android:text="Zaibunissa Malik"
+                                    android:text="Prof. Shivananda S"
                                     android:textColor="@color/black"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -156,7 +156,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginVertical="2dp"
                                     android:fontFamily="serif"
-                                    android:text="HOD, Computer Department, MHSSP"
+                                    android:text="Asst prof, ISE Department, AMCEC"
                                     android:textSize="15sp" />
 
                                 <TextView
@@ -166,7 +166,7 @@
                                     android:layout_marginVertical="2dp"
                                     android:drawableStart="@drawable/phone"
                                     android:fontFamily="serif"
-                                    android:text="  9819898203"
+                                    android:text="  9741278570"
                                     android:textSize="15sp" />
 
                                 <TextView
@@ -176,7 +176,7 @@
                                     android:layout_marginVertical="2dp"
                                     android:drawableStart="@drawable/email"
                                     android:fontFamily="serif"
-                                    android:text="  zebamalik@yahoo.com"
+                                    android:text="  shivananda.shivanna@amceducation.in"
                                     android:textSize="15sp" />
                             </LinearLayout>
                         </LinearLayout>
@@ -247,12 +247,12 @@
                                         android:paddingVertical="10dp">
 
                                         <de.hdodenhof.circleimageview.CircleImageView
-                                            android:id="@+id/about_glen"
+                                            android:id="@+id/about_taha"
                                             android:layout_width="80dp"
                                             android:layout_height="80dp"
                                             android:layout_gravity="center"
                                             android:layout_weight="2"
-                                            android:src="@drawable/about_glen" />
+                                            android:src="@drawable/md_taha" />
 
                                         <LinearLayout
                                             android:layout_width="wrap_content"
@@ -266,29 +266,29 @@
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:fontFamily="serif"
-                                                android:text="Glen Dsouza"
+                                                android:text="MD Taha"
                                                 android:textColor="@color/black"
                                                 android:textSize="20sp"
                                                 android:textStyle="bold" />
 
                                             <TextView
-                                                android:id="@+id/glen_num"
+                                                android:id="@+id/taha_num"
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:layout_marginVertical="2dp"
                                                 android:drawableStart="@drawable/phone"
                                                 android:fontFamily="serif"
-                                                android:text="  9324326404"
+                                                android:text="  9663034110"
                                                 android:textSize="15sp" />
 
                                             <TextView
-                                                android:id="@+id/glen_mail"
+                                                android:id="@+id/taha_mail"
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:layout_marginVertical="2dp"
                                                 android:drawableStart="@drawable/email"
                                                 android:fontFamily="serif"
-                                                android:text="  dsouzaglen@gmail.com"
+                                                android:text="  md.taha.ahmed.projects@gmail.com"
                                                 android:textSize="15sp" />
                                         </LinearLayout>
                                     </LinearLayout>
@@ -321,12 +321,12 @@
                                         android:paddingVertical="10dp">
 
                                         <de.hdodenhof.circleimageview.CircleImageView
-                                            android:id="@+id/about_hatim"
+                                            android:id="@+id/about_kazim"
                                             android:layout_width="80dp"
                                             android:layout_height="80dp"
                                             android:layout_gravity="center"
                                             android:layout_weight="2"
-                                            android:src="@drawable/about_hatim" />
+                                            android:src="@drawable/kazim" />
 
                                         <LinearLayout
                                             android:layout_width="wrap_content"
@@ -340,29 +340,29 @@
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:fontFamily="serif"
-                                                android:text="Hatim Mullajiwala"
+                                                android:text="Kazim Ayaan PS"
                                                 android:textColor="@color/black"
                                                 android:textSize="20sp"
                                                 android:textStyle="bold" />
 
                                             <TextView
-                                                android:id="@+id/hatim_num"
+                                                android:id="@+id/kazim_num"
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:layout_marginVertical="2dp"
                                                 android:drawableStart="@drawable/phone"
                                                 android:fontFamily="serif"
-                                                android:text="  8898413414"
+                                                android:text="  9353399866"
                                                 android:textSize="15sp" />
 
                                             <TextView
-                                                android:id="@+id/hatim_mail"
+                                                android:id="@+id/kazim_mail"
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:layout_marginVertical="2dp"
                                                 android:drawableStart="@drawable/email"
                                                 android:fontFamily="serif"
-                                                android:text="  hatmsb11@gmail.com"
+                                                android:text="  pskazimayaan@gmail.com"
                                                 android:textSize="15sp" />
                                         </LinearLayout>
                                     </LinearLayout>
@@ -395,12 +395,12 @@
                                         android:paddingVertical="10dp">
 
                                         <de.hdodenhof.circleimageview.CircleImageView
-                                            android:id="@+id/about_habban"
+                                            android:id="@+id/about_faisal"
                                             android:layout_width="80dp"
                                             android:layout_height="80dp"
                                             android:layout_gravity="center"
                                             android:layout_weight="2"
-                                            android:src="@drawable/about_habban" />
+                                            android:src="@drawable/fasial" />
 
                                         <LinearLayout
                                             android:layout_width="wrap_content"
@@ -414,34 +414,109 @@
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:fontFamily="serif"
-                                                android:text="Habban Bhoira"
+                                                android:text="MD Faisal"
                                                 android:textColor="@color/black"
                                                 android:textSize="20sp"
                                                 android:textStyle="bold" />
 
                                             <TextView
-                                                android:id="@+id/habban_num"
+                                                android:id="@+id/faisal_num"
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:layout_marginVertical="2dp"
                                                 android:drawableStart="@drawable/phone"
                                                 android:fontFamily="serif"
-                                                android:text="  9892196464"
+                                                android:text="  8088553373"
                                                 android:textSize="15sp" />
 
                                             <TextView
-                                                android:id="@+id/habban_mail"
+                                                android:id="@+id/faisal_mail"
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:layout_marginVertical="2dp"
                                                 android:drawableStart="@drawable/email"
                                                 android:fontFamily="serif"
-                                                android:text="  hbnbhoira@gmail.com"
+                                                android:text="  mdfais2995@gmail.com"
                                                 android:textSize="15sp" />
                                         </LinearLayout>
                                     </LinearLayout>
                                 </LinearLayout>
                             </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/about_cv5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                app:cardCornerRadius="10dp"
+                                app:cardElevation="10dp"
+                                app:cardMaxElevation="15dp"
+                                app:cardPreventCornerOverlap="true">
+
+                                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginHorizontal="5dp"
+                                    android:orientation="vertical"
+                                    android:paddingVertical="5dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginTop="5dp"
+                                        android:orientation="horizontal"
+                                        android:paddingVertical="10dp">
+
+                                        <de.hdodenhof.circleimageview.CircleImageView
+                                            android:id="@+id/about_syeda"
+                                            android:layout_width="80dp"
+                                            android:layout_height="80dp"
+                                            android:layout_gravity="center"
+                                            android:layout_weight="2"
+                                            android:src="@drawable/sydea" />
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="5dp"
+                                            android:layout_marginEnd="5dp"
+                                            android:layout_weight="10"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="serif"
+                                                android:text="Syeda Hafza"
+                                                android:textColor="@color/black"
+                                                android:textSize="20sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:id="@+id/syeda_num"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginVertical="2dp"
+                                                android:drawableStart="@drawable/phone"
+                                                android:fontFamily="serif"
+                                                android:text="  9538307289"
+                                                android:textSize="15sp" />
+
+                                            <TextView
+                                                android:id="@+id/syeda_mail"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginVertical="2dp"
+                                                android:drawableStart="@drawable/email"
+                                                android:fontFamily="serif"
+                                                android:text="  syeda.shifaa16@gmail.com"
+                                                android:textSize="15sp" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
                         </LinearLayout>
                     </HorizontalScrollView>
                     <ImageButton
