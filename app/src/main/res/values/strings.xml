@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">StreetWise</string>
     <string name="title_activity_maps">MapsActivity</string>
-
     <string name="facebook_app_id">357217716313208</string>
     <string name="fb_login_protocol_scheme">fb357217716313208</string>
     <string name="facebook_client_token">ef37e30cf65becfe0c483b65f09668b3</string>
@@ -12,7 +11,17 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-
+    <color name="light_pink">#F97981</color>
+    <color name="dark_gray">#7E7979</color>
+    <color name="light_gray">#8C8889</color>
+    <color name="dark_pink">#FB515C</color>
+    <color name="clothes">#DEE4E8</color>
+    <color name="veg_bg">#C3E4C2</color>
+    <color name="samo">#E3B988</color>
+    <color name="toys">#EDBFBF</color>
+    <color name="others">#B9CFDE</color>
+    <color name="access">#ce985f</color>
+    <color name="all">#C3E4C2</color>
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>

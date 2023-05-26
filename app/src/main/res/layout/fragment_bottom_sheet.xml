@@ -5,7 +5,7 @@
     android:id="@+id/bs_cl"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bs_dialogbg"
+    android:background="@color/white"
     tools:context=".BottomSheetFragment">
 
 
@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Shopname"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/dark_pink"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/bs_profile_image"
@@ -65,13 +65,13 @@
 
     <TextView
         android:id="@+id/bs_tv2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="129dp"
+        android:layout_height="22dp"
         android:layout_marginTop="4dp"
-        android:text="Mobile No."
-        android:textColor="@color/purple_700"
         android:drawableStart="@drawable/phone"
-        android:drawableTint="@color/purple_700"
+        android:drawableTint="@color/dark_gray"
+        android:text="  Mobile No."
+        android:textColor="@color/light_gray"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toStartOf="@+id/bs_guideline10"
@@ -138,6 +138,7 @@
                 android:background="@drawable/vhome_tablayout_bg" />
 
             <androidx.viewpager2.widget.ViewPager2
+                android:background="@color/white"
                 android:id="@+id/bs_viewpager"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />

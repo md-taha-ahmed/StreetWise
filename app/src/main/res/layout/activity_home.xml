@@ -19,7 +19,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/home_bg">
+        android:background="@color/white">
 
 
         <TextView
@@ -64,16 +64,17 @@
                 map:cardPreventCornerOverlap="true">
 
                 <LinearLayout
+                    android:background="@color/veg_bg"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="100dp"
+                        android:layout_height="115dp"
                         android:padding="10dp"
                         android:scaleType="centerInside"
-                        map:srcCompat="@drawable/home_vegfruits" />
+                        map:srcCompat="@drawable/veg1" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -81,8 +82,10 @@
                         android:gravity="center"
                         android:paddingBottom="5dp"
                         android:text="FRUITS &amp; VEGETABLES"
-                        android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -100,13 +103,16 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/samo"
+                    >
 
                     <ImageView
+
                         android:layout_width="match_parent"
-                        android:layout_height="100dp"
+                        android:layout_height="115dp"
                         android:padding="10dp"
-                        map:srcCompat="@drawable/home_food" />
+                        map:srcCompat="@drawable/samosa" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -114,8 +120,9 @@
                         android:gravity="center"
                         android:paddingBottom="5dp"
                         android:text="FOOD &amp; BEVERAGES"
-                        android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="14sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -133,13 +140,15 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/toys"
+                    >
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="100dp"
+                        android:layout_height="115dp"
                         android:padding="10dp"
-                        map:srcCompat="@drawable/home_toys" />
+                        map:srcCompat="@drawable/toys" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -147,8 +156,10 @@
                         android:gravity="center"
                         android:paddingBottom="5dp"
                         android:text="BOOKS &amp; \nTOYS"
-                        android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
         </LinearLayout>
@@ -181,14 +192,16 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/light_pink"
+                    >
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="100dp"
+                        android:layout_height="115dp"
                         android:padding="10dp"
                         android:scaleType="centerInside"
-                        map:srcCompat="@drawable/home_cosmetics" />
+                        map:srcCompat="@drawable/makeup1" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -196,8 +209,8 @@
                         android:gravity="center"
                         android:paddingBottom="5dp"
                         android:text="BEAUTY &amp; COSMETICS"
-                        android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -213,24 +226,28 @@
                 map:cardPreventCornerOverlap="true">
 
                 <LinearLayout
+
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/clothes"
+                    >
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="100dp"
+                        android:layout_height="115dp"
                         android:padding="10dp"
-                        map:srcCompat="@drawable/home_clothes" />
+                        map:srcCompat="@drawable/clothes1" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:paddingBottom="5dp"
+                        android:textStyle="bold"
                         android:text="CLOTHES &amp; GARMENTS"
-                        android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -248,13 +265,15 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/access"
+                    >
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="100dp"
+                        android:layout_height="115dp"
                         android:padding="5dp"
-                        map:srcCompat="@drawable/home_accessories" />
+                        map:srcCompat="@drawable/accessories1" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -262,8 +281,10 @@
                         android:gravity="center"
                         android:paddingBottom="5dp"
                         android:text="ACCESSORY ITEMS"
-                        android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
         </LinearLayout>
@@ -297,11 +318,13 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/others"
+                    >
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="100dp"
+                        android:layout_height="115dp"
                         android:padding="10dp"
                         android:scaleType="centerInside"
                         map:srcCompat="@drawable/home_more" />
@@ -312,8 +335,10 @@
                         android:gravity="center"
                         android:paddingBottom="5dp"
                         android:text="OTHERS"
-                        android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -329,13 +354,14 @@
                 map:cardPreventCornerOverlap="true">
 
                 <LinearLayout
+                    android:background="@color/all"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="100dp"
+                        android:layout_height="115dp"
                         android:padding="10dp"
                         map:srcCompat="@drawable/home_all" />
 
@@ -345,8 +371,10 @@
                         android:gravity="center"
                         android:paddingBottom="5dp"
                         android:text="ALL"
-                        android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
         </LinearLayout>

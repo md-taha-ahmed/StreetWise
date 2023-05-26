@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:text="OTP VERIFICATION"
         android:textSize="26sp"
-        android:textColor="@color/black"
+        android:textColor="@color/dark_pink"
         android:textStyle="bold"
         android:fontFamily="serif"
         android:layout_marginTop="15dp"/>
@@ -43,7 +43,7 @@
     android:textStyle="bold"
     android:textSize="15sp"
     android:fontFamily="serif"
-    android:textColor="@color/black"
+    android:textColor="@color/light_gray"
     android:layout_marginTop="15dp"
     android:gravity="center"
     />
@@ -166,7 +166,7 @@
             android:id="@+id/submit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/but1"
+            android:background="@color/dark_pink"
             android:fontFamily="serif"
             android:text="SUBMIT"
             android:textStyle="bold" />
@@ -184,7 +184,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:background="@drawable/but1"
+            android:background="@color/dark_pink"
             android:fontFamily="serif"
             android:text="RESEND OTP"
             android:textStyle="bold"

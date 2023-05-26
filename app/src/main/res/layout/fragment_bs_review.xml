@@ -27,7 +27,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@drawable/bs_buttonbg"
+        android:background="@color/dark_pink"
         android:drawableEnd="@drawable/bs_addreview"
         android:paddingEnd="16dp"
         android:text="Add a review"

@@ -22,7 +22,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#DDC3FB"
+        android:background="@color/light_pink"
         android:orientation="vertical"
         android:weightSum="1">
 
@@ -86,7 +86,7 @@
             android:layout_height="wrap_content"
             android:text="Favorite Vendors"
             android:textSize="30sp"
-            android:textColor="@color/purple_700"
+            android:textColor="@color/white"
             android:textStyle="bold"
             android:fontFamily="serif"
             android:layout_marginVertical="6dp"
