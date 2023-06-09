@@ -63,7 +63,8 @@ import java.util.Map;
 
 ///////////////
 public class MainActivity extends AppCompatActivity {
-    int flag,click=0;
+    int click=0;
+    int flag;
     TextInputLayout tt1,tt2,tt3;
     TextInputEditText eed1,eed2,eed3;
     Button bb1;
